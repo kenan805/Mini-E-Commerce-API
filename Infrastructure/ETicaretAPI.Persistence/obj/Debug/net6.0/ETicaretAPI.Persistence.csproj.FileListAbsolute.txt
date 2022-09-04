@@ -15,3 +15,5 @@ C:\Users\user\Desktop\E-TicaretApp\ETicaretAPI\Infrastructure\ETicaretAPI.Persis
 C:\Users\user\Desktop\E-TicaretApp\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\obj\Debug\net6.0\refint\ETicaretAPI.Persistence.dll
 C:\Users\user\Desktop\E-TicaretApp\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\obj\Debug\net6.0\ETicaretAPI.Persistence.pdb
 C:\Users\user\Desktop\E-TicaretApp\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\obj\Debug\net6.0\ref\ETicaretAPI.Persistence.dll
+C:\Users\user\Desktop\E-TicaretApp\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\bin\Debug\net6.0\ETicaretAPI.Persistence.runtimeconfig.json
+C:\Users\user\Desktop\E-TicaretApp\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\obj\Debug\net6.0\ETicaretAPI.Persistence.genruntimeconfig.cache
