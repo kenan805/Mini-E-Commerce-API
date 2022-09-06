@@ -29,6 +29,7 @@ namespace ETicaretAPI.Persistence.Repositories
         public IQueryable<T> GetWhere(Expression<Func<T, bool>> expression)
             => Table.Where(expression);
         public async Task<T> GetByIdAsync(string id)
-            => await Table.FirstOrDefaultAsync(x => x.Id == Guid.Parse(id));
+            //=> await Table.FirstOrDefaultAsync(x => x.Id == Guid.Parse(id));
+            => await Table.FindAsync(Guid.Parse(id));
     }
 }
