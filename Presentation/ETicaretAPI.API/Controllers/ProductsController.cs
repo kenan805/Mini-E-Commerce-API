@@ -1,4 +1,5 @@
 ﻿using ETicaretAPI.Application.Repositories;
+using ETicaretAPI.Domain.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,27 +11,25 @@ namespace ETicaretAPI.API.Controllers
     {
         private readonly IProductWriteRepository _productWriteRepository;
         private readonly IProductReadRepository _productReadRepository;
+        private readonly IOrderWriteRepository _orderWriteRepository;
+        private readonly IOrderReadRepository _orderReadRepository;
+        private readonly ICustomerWriteRepository _customerWriteRepository;
 
-        public ProductsController(IProductWriteRepository productWriteRepository, IProductReadRepository productReadRepository)
+        public ProductsController(IProductWriteRepository productWriteRepository, IProductReadRepository productReadRepository, IOrderWriteRepository orderWriteRepository, IOrderReadRepository orderReadRepository, ICustomerWriteRepository customerWriteRepository)
         {
             _productWriteRepository = productWriteRepository;
             _productReadRepository = productReadRepository;
+            _orderWriteRepository = orderWriteRepository;
+            _orderReadRepository = orderReadRepository;
+            _customerWriteRepository = customerWriteRepository;
         }
 
         [HttpGet]
         public async Task Get()
         {
-            //await _productWriteRepository.AddRangeAsync(new()
-            //{
-            //    new() { Id = Guid.NewGuid(), CreatedDate = DateTime.Now, Name = "Product 1", Price = 100, Stock = 10 },
-            //    new() { Id = Guid.NewGuid(), CreatedDate = DateTime.Now, Name = "Product 2", Price = 200, Stock = 20 },
-            //    new() { Id = Guid.NewGuid(), CreatedDate = DateTime.Now, Name = "Product 3", Price = 300, Stock = 150 },
-            //});
-            //await _productWriteRepository.SaveAsync();
-
-            var product = await _productReadRepository.GetByIdAsync("5dbc0c67-76a1-4c05-90de-14f7ef1ad01f");
-            product.Name = "Product 3";
-            await _productWriteRepository.SaveAsync();
+            Order order = await _orderReadRepository.GetByIdAsync("ce0873a3-006c-4613-afcb-08da90cdf661");
+            order.Address = "Quba";
+            await _orderWriteRepository.SaveAsync();
 
         }
 
@@ -41,4 +40,6 @@ namespace ETicaretAPI.API.Controllers
             return Ok(product);
         }
     }
+
 }
+
