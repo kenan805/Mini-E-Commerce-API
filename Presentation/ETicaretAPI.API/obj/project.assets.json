@@ -2613,19 +2613,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {}
+    "C:\\Users\\ASUS\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\E-TicaretApp\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\ETicaretAPI.API.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\source\\repos\\Mini-E-Commerce-API\\Presentation\\ETicaretAPI.API\\ETicaretAPI.API.csproj",
       "projectName": "ETicaretAPI.API",
-      "projectPath": "C:\\Users\\user\\Desktop\\E-TicaretApp\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\ETicaretAPI.API.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\E-TicaretApp\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\obj\\",
+      "projectPath": "C:\\Users\\ASUS\\source\\repos\\Mini-E-Commerce-API\\Presentation\\ETicaretAPI.API\\ETicaretAPI.API.csproj",
+      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ASUS\\source\\repos\\Mini-E-Commerce-API\\Presentation\\ETicaretAPI.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2639,11 +2639,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\user\\Desktop\\E-TicaretApp\\ETicaretAPI\\Core\\ETicaretAPI.Application\\ETicaretAPI.Application.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\E-TicaretApp\\ETicaretAPI\\Core\\ETicaretAPI.Application\\ETicaretAPI.Application.csproj"
+            "C:\\Users\\ASUS\\source\\repos\\Mini-E-Commerce-API\\Core\\ETicaretAPI.Application\\ETicaretAPI.Application.csproj": {
+              "projectPath": "C:\\Users\\ASUS\\source\\repos\\Mini-E-Commerce-API\\Core\\ETicaretAPI.Application\\ETicaretAPI.Application.csproj"
             },
-            "C:\\Users\\user\\Desktop\\E-TicaretApp\\ETicaretAPI\\Infrastructure\\ETicaretAPI.Persistence\\ETicaretAPI.Persistence.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\E-TicaretApp\\ETicaretAPI\\Infrastructure\\ETicaretAPI.Persistence\\ETicaretAPI.Persistence.csproj"
+            "C:\\Users\\ASUS\\source\\repos\\Mini-E-Commerce-API\\Infrastructure\\ETicaretAPI.Persistence\\ETicaretAPI.Persistence.csproj": {
+              "projectPath": "C:\\Users\\ASUS\\source\\repos\\Mini-E-Commerce-API\\Infrastructure\\ETicaretAPI.Persistence\\ETicaretAPI.Persistence.csproj"
             }
           }
         }
@@ -2688,7 +2688,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

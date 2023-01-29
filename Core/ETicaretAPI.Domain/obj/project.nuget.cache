@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1+FlHobQ/IAQ0aC70MM4Wzi8mqD7M8iYlXTIdXyPdG5KYxzOBuvAnOrrWgR1fzn6WMQjK5KJZJbNORtLVYEflw==",
+  "dgSpecHash": "NElzmAwUxxcamJSymMIh8nTMxl0ZoKXlJLFclI4d9R2cwPsoZUfMXjncNwGPb1gKo6wSlvNnseBm21+6ku7Tmw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\E-TicaretApp\\ETicaretAPI\\Core\\ETicaretAPI.Domain\\ETicaretAPI.Domain.csproj",
+  "projectFilePath": "C:\\Users\\ASUS\\source\\repos\\Mini-E-Commerce-API\\Core\\ETicaretAPI.Domain\\ETicaretAPI.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

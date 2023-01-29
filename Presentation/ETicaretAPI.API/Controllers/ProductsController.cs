@@ -25,12 +25,12 @@ namespace ETicaretAPI.API.Controllers
         }
 
         [HttpGet]
-        public async Task Get()
+        public async Task<IActionResult> Get()
         {
-            Order order = await _orderReadRepository.GetByIdAsync("ce0873a3-006c-4613-afcb-08da90cdf661");
-            order.Address = "Quba";
-            await _orderWriteRepository.SaveAsync();
-
+            //Order order = await _orderReadRepository.GetByIdAsync("ce0873a3-006c-4613-afcb-08da90cdf661");
+            //order.Address = "Quba";
+            //await _orderWriteRepository.SaveAsync();
+            return Ok("Cors Policy !");
         }
 
         [HttpGet("{id}")]
